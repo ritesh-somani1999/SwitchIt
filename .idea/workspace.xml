@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa0a9291-80d5-48f0-95f3-4c885a62b7ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/IndianShop-ritesh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/statement/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/statementOriginal/src/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myprofile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/.idea/stock_management.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/migrations/0002_auto_20191021_1948.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/migrations/0003_auto_20191021_1952.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/migrations/0004_auto_20191021_2039.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/migrations/0005_auto_20191021_2041.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/migrations/0006_auto_20191021_2054.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/migrations/0007_auto_20191022_0954.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/migrations/0008_shopping_basket_time_of_purchase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/migrations/0009_auto_20191022_1229.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/migrations/0010_auto_20191023_0146.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/first_app/zasa.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/static/first_app/css/basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/static/first_app/css/book_buy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/static/first_app/css/books_list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/static/first_app/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/static/first_app/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/static/first_app/css/profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/static/first_app/image/books.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/static/first_app/image/books_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/static/first_app/image/electronic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/static/first_app/image/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/static/first_app/image/sports.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/static/first_app/video/background.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/stock_management/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/stock_management/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/stock_management/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/stock_management/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/bookEnter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/book_buy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/books_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/books_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/electronicEnter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/electronic_buy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/electronics_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/logout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/sport_buy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/sports_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/storeEnter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock_management/templates/first_app/test.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-854">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/pro.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="310" column="29" selection-start-line="310" selection-start-column="29" selection-end-line="310" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/auth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/cart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/cart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2176">
+              <caret line="128" column="79" selection-start-line="128" selection-start-column="79" selection-end-line="128" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/history.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/header.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>timestamp</find>
+      <find>dispP</find>
+      <find>count</find>
+      <find>setti</find>
+      <find>set</find>
+      <find>sett</find>
+      <find>setting</find>
+      <find>mobileno</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pro.html" />
+        <option value="$PROJECT_DIR$/auth.js" />
+        <option value="$PROJECT_DIR$/header.html" />
+        <option value="$PROJECT_DIR$/header.js" />
+        <option value="$PROJECT_DIR$/pro.js" />
+        <option value="$PROJECT_DIR$/bill.js" />
+        <option value="$PROJECT_DIR$/myprofile.html" />
+        <option value="$PROJECT_DIR$/../myprofile.html" />
+        <option value="$PROJECT_DIR$/public/pro.html" />
+        <option value="$PROJECT_DIR$/public/pro.js" />
+        <option value="$PROJECT_DIR$/public/cart.html" />
+        <option value="$PROJECT_DIR$/public/cart.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/header.html" />
+        <option value="$PROJECT_DIR$/public/index.js" />
+        <option value="$PROJECT_DIR$/public/auth.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="85" />
+    <option name="y" value="218" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IndianShop-ritesh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IndianShop-ritesh" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\intel\Desktop" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa0a9291-80d5-48f0-95f3-4c885a62b7ac" name="Default Changelist" comment="" />
+      <created>1594743376583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594743376583</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="85" y="218" width="697" height="735" extended-state="1" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.49924126" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/auth.js" />
+    <entry file="file://$PROJECT_DIR$/banner.html" />
+    <entry file="file://$PROJECT_DIR$/bill.html" />
+    <entry file="file://$PROJECT_DIR$/cart.html" />
+    <entry file="file://$PROJECT_DIR$/cart.js" />
+    <entry file="file://$PROJECT_DIR$/contact.html" />
+    <entry file="file://$PROJECT_DIR$/history.html" />
+    <entry file="file://$PROJECT_DIR$/pro.js" />
+    <entry file="file://$PROJECT_DIR$/pro.html" />
+    <entry file="file://$PROJECT_DIR$/popup.js" />
+    <entry file="file://$PROJECT_DIR$/index.js" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/history.js" />
+    <entry file="file://$PROJECT_DIR$/header.js" />
+    <entry file="file://$PROJECT_DIR$/header.html" />
+    <entry file="file://$PROJECT_DIR$/footer.html" />
+    <entry file="file://$PROJECT_DIR$/bill.js" />
+    <entry file="file://$PROJECT_DIR$/myprofile.html" />
+    <entry file="file://$PROJECT_DIR$/../myprofile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="79" selection-start-line="128" selection-start-column="79" selection-end-line="128" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/history.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/header.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-854">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="310" column="29" selection-start-line="310" selection-start-column="29" selection-end-line="310" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
