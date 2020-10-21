@@ -164,7 +164,7 @@ for (var key in w) {
                             </div>
                             <div class="container ">
                             <a class="modal-open bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded m-4 float-right mr-16 buy_shop" id='buy-${wer}'>
-                            <button type="button" class="btn btn-primary ">Buy</button>
+                            Buy
 
                             </a>
                             </div>
