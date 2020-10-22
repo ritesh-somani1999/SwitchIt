@@ -38,7 +38,7 @@ const addShop=(store,doc)=>{
 
 
 
-db.collection('shop').get().then((snapshot) =>{
+db.collection('shop').orderBy("name").get().then((snapshot) =>{
 	snapshot.docs.forEach(doc=>{
 		addShop(doc.data(),doc.id);
 
