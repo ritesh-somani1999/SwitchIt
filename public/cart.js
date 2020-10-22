@@ -117,16 +117,16 @@ for (var key in w) {
                             <td>${pro.data().name}</td>
                             <td class='price-${wer}-${pro.id}'>${pro.data().price}</td>
                             <td id='${wer}-${pro.id}'>
-                            <span class="qt-plus">+</span>
-                            <span class="qt">${x[pro.id]} </span>
                             <span class="qt-minus">-</span>
+                            <span class="qt">${x[pro.id]} </span>
+                            <span class="qt-plus">+</span>
                             </td>
 
                             <td><div class="total"><div id="total-${wer}-${pro.id}">${pro.data().price}*${x[pro.id]}</div></td>
 
                             <td>
                               <a href="#" class="btn btn-danger btn-sm delete" id='delete-${wer}-${pro.id}'>
-                                <i class="fa fa-trash-o" aria-hidden="true"></i
+                              <i class="far fa-trash-alt"></i>
                               </a>
                             </td>
                           </tr>
