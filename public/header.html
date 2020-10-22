@@ -80,6 +80,8 @@
       'feedconc': 'Thanks for your valuable feedback.',
       'acchead': 'Account Details',
       'createhead': 'Create my Store',
+      'storepan': 'PAN No.',
+      'storegstn': 'GSTN No.',
       'storename': 'Store Name',
       'storecity': 'City',
       'citypin': 'Pin Code'
@@ -119,6 +121,8 @@
       'feedconc': 'உங்கள் மதிப்புமிக்க கருத்துக்கு நன்றி.',
       'acchead': 'கணக்கு விவரங்கள்',
       'createhead': 'எனது கடையை உருவாக்கவும்',
+      'storepan': 'PAN No.',
+      'storegstn': 'GSTN No.',
       'storename': 'கடை பெயர்',
       'storecity': 'நகரம்',
       'citypin': 'அஞ்சல் குறியீடு'
@@ -158,6 +162,8 @@
       'feedconc': 'आपकी बहुमूल्य प्रतिक्रिया के लिए धन्यवाद।',
       'acchead': 'खाता विवरण',
       'createhead': 'अपना स्टोर बनाये',
+      'storepan': 'PAN No.',
+      'storegstn': 'GSTN No.',
       'storename': 'स्टोर का नाम ',
       'storecity': 'शहर',
       'citypin': 'पिन कोड'
@@ -484,6 +490,24 @@
             </div>
           </div>
           <div class="flex flex-wrap -mx-3 mb-0">
+            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+              <label class="lang block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="panno" key="storepan">
+                PAN No.
+              </label>
+              <input
+                class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                id="panno" type="text" placeholder="123456">
+            </div>
+            <div class="w-full md:w-1/2 px-3">
+              <label class="lang block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="gstnno" key="storegstn">
+                GSTN No.
+              </label>
+              <input
+                class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                id="gstnno" type="text" placeholder="123456">
+            </div>
+          </div>
+          <div class="flex flex-wrap -mx-3 mb-0">
             <div class="w-full px-3">
               <label class="lang block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="address" key="signupadd">
                 Address
@@ -526,7 +550,7 @@
               </label>
               <input
                 class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                id="email" type="text" placeholder="xyz@email.com">
+                id="email" type="email" placeholder="xyz@email.com">
             </div>
           </div>
           <div class="flex items-center justify-between">

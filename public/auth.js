@@ -15,6 +15,8 @@ e.preventDefault();
 var timestamp=JSON.stringify(Date.now());
 db.collection('shop').doc(firebase.auth().currentUser.uid).set({
   name: createForm['storename'].value,
+  panno: createForm['panno'].value,
+  gstnno: createForm['gstnno'].value,
   address: createForm['address'].value,
   city: createForm['city'].value,
   pincode: createForm['pincode'].value,
