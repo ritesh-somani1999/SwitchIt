@@ -26,7 +26,7 @@ db.collection('shop/'+ firebase.auth().currentUser.uid +'/purchased').orderBy('t
                 <p>Click to view the bill</p>
                 <br>
                 <div class="button-${doc.id} button-click" id="completed-${doc.id}">
-                <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded cart   " >Order Completed</button>
+                <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded cart   " >Mark as Completed</button>
                 </div>
               </div>
             </div>
@@ -62,10 +62,10 @@ db.collection('shop/'+ firebase.auth().currentUser.uid +'/purchased').orderBy('t
                     if(count==Object.keys(prod).length)
                     {
                         headhtml+=`<tr>
-                                    <td><h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Total:</h2></td>
-                                    <td><h2 class="text-2xl font-medium text-gray-900 title-font mb-2 "></h2></td>
-                                    <td><h2 class="text-2xl font-medium text-gray-900 title-font mb-2 total-quantity-${doc.id}">${total_q}</h2></td>
-                                    <td><h2 class="text-2xl font-medium text-gray-900 title-font mb-2 total-price-${doc.id}">${total_p}</h2></td>
+                                    <td><h2 class="text-xl text-blue-600 font-medium text-gray-900 title-font mb-2">Total:</h2></td>
+                                    <td><h2 class="text-xl text-blue-600 font-medium text-gray-900 title-font mb-2 "></h2></td>
+                                    <td><h2 class="text-xl text-blue-600 font-medium text-gray-900 title-font mb-2 total-quantity-${doc.id}">${total_q}</h2></td>
+                                    <td><h2 class="text-xl text-blue-600 font-medium text-gray-900 title-font mb-2 total-price-${doc.id}">${total_p}</h2></td>
                                   </tr>
                                 </table>
                                 </div>

@@ -27,13 +27,12 @@ db.collection('users/'+ firebase.auth().currentUser.uid +'/bought').orderBy("tim
                 <p>Click to view the bill</p>
                 <br>
                 <div class="button-${doc.id} button-click" id="completed-${doc.id}">
-                <div class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded cart   " >Order Pending</div>
+                <div class="text-red-500 font-bold" >Order Status: Pending</div>
                 </div>
               </div>
             </div>
           </label>
           <div class="accordion__content overflow-hidden bg-grey-lighter ">
-            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Header</h2>
                 <table>
                   <tr>
                     <th>Name</th>
@@ -63,10 +62,10 @@ db.collection('users/'+ firebase.auth().currentUser.uid +'/bought').orderBy("tim
                     if(count==Object.keys(prod).length)
                     {
                         headhtml+=`<tr>
-                                    <td><h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Total:</h2></td>
-                                    <td><h2 class="text-2xl font-medium text-gray-900 title-font mb-2 "></h2></td>
-                                    <td><h2 class="text-2xl font-medium text-gray-900 title-font mb-2 total-quantity-${doc.id}">${total_q}</h2></td>
-                                    <td><h2 class="text-2xl font-medium text-gray-900 title-font mb-2 total-price-${doc.id}">${total_p}</h2></td>
+                                    <td><h2 class="text-xl text-blue-600 font-medium text-gray-900 title-font mb-2">Total:</h2></td>
+                                    <td><h2 class="text-xl text-blue-600 font-medium text-gray-900 title-font mb-2 "></h2></td>
+                                    <td><h2 class="text-xl text-blue-600 font-medium text-gray-900 title-font mb-2 total-quantity-${doc.id}">${total_q}</h2></td>
+                                    <td><h2 class="text-xl text-blue-600 font-medium text-gray-900 title-font mb-2 total-price-${doc.id}">${total_p}</h2></td>
                                   </tr>
                                 </table>
                                 </div>
