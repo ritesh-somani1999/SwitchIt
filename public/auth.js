@@ -39,14 +39,32 @@ db.collection('shop').doc(firebase.auth().currentUser.uid).set({
 const signupForm = document.querySelector('#signup-form');
 signupForm.addEventListener('submit', (e) => {
   e.preventDefault();
-  base_pro=new firebase.auth.GoogleAuthProvider();
-  firebase.auth().signInWithPopup(base_pro).then(function(result){
-     console.log(result);
-     console.log("Sucess");
-  }).catch(function(err){
-     console.log(err);
-     console.log('error');
-  })
+  
+  // get user info
+  const email = signupForm['signup-email'].value;
+  const password = signupForm['signup-password'].value;
+
+  // sign up the user & add firestore data
+  auth.createUserWithEmailAndPassword(email, password).then(cred => {
+    firebase.auth().currentUser.sendEmailVerification().then(function() {
+      // Email sent.
+      alert("Signup Successful !!!");
+      console.log("sent");
+    });
+    db.collection('users').doc(cred.user.uid).set({
+      name: signupForm['signup-name'].value,
+      mobile: signupForm['signup-mobile'].value,
+      address: signupForm['signup-address'].value,
+      shop: false
+    });
+    auth.signOut().then(() => {
+    // close the signup modal & reset form
+    // location.reload();
+    signupForm.reset();
+  }).catch(err => {
+    alert(err.message);
+  });
+});
 });
 
 

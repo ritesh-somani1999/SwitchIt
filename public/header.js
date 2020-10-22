@@ -12,6 +12,7 @@ const setupUI = (user) => {
     loggedOutLinks.forEach(item => item.style.display = 'none');
     // account info
     db.collection('users').doc(user.uid).get().then(doc => {
+      console.log(user.uid);
       if(doc.data().shop==true)
       {
             db.collection('shop').doc(user.uid).get().then(s1=>{
