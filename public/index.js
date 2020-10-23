@@ -1,5 +1,6 @@
 const list=document.getElementById('displaystores');
 
+
 function setItem1(id)
 {
 	console.log("called");
@@ -14,7 +15,7 @@ const addShop=(store,doc)=>{
       <canvas class="lg:h-48 md:h-36 w-full object-cover object-center image-shop"   width="400" height="200" name="${store.name}" alt="blog" ></canvas>
       <div class="p-6">
         <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">${store.mobile}</h2>
-        <h1 class="title-font text-lg font-medium text-gray-900 mb-3">${store.name}</h1>
+        <h1 id="storename" class="title-font text-lg font-medium text-gray-900 mb-3">${store.name}</h1>
         <p class="leading-relaxed mb-3">${store.address}</p>
         <div class="flex items-center flex-wrap ">
           <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href='pro.html?name=${doc}')>Explore this store 
@@ -138,3 +139,30 @@ function init()
             context.fillText(initials, canvasCssWidth / 2, canvasCssHeight / 1.5);
      })
 }
+
+const stsearch = document.querySelector('#storesearch input');
+const slist = document.querySelector('#displaystores');
+
+// const filterStores = (term) => {
+//   Array.from(slist.children).forEach((store)=>{
+//     var n=store.querySelector('#storename');
+//     console.log(n.textContent);
+//   });
+// };
+
+const filterStores = (term) => {
+  Array.from(slist.children)
+    .filter((store) => !store.querySelector("#storename").textContent.toLowerCase().includes(term))
+    .forEach((store) => store.classList.add('filtered'));
+
+  Array.from(slist.children)
+    .filter((store) => store.querySelector("#storename").textContent.toLowerCase().includes(term))
+    .forEach((store) => store.classList.remove('filtered'));
+};
+
+stsearch.addEventListener('keyup', () => {
+
+  const term = search.value.trim().toLowerCase();
+  filterStores(term);
+
+});

@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <title>SwitchIt</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous">
     </script>
+    <style>
+      .filtered {
+        display: none !important;
+      }
+    </style>
     <script> 
       $(function(){
         $("#header").load("header.html"); 
@@ -45,10 +51,16 @@
 
   <div id="header"></div>
 
-  <div id="banner"></div>
+  <div id="banner"></div><br><br>
+
+  <div class="p-8 flex items-center justify-center">
+    <div id="storesearch" class="bg-white w-1/3 items-center rounded-full shadow-xl">
+      <input class="rounded-full w-full py-4 px-6 text-gray-700 leading-tight focus:outline-none" id="search" name="search" type="text" placeholder="Search Store">
+    </div>
+  </div>
 
       <section class="text-gray-700 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-10 mx-auto">
           <div id="displaystores" class="flex flex-wrap -m-4">
 
           </div>
