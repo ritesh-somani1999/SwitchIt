@@ -157,7 +157,7 @@ function dispProduct(product,idpro,user,count,final)
         </a>
         <div class="mt-4">
         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1" id="desc-${idpro}">${product.description}</h3>
-        <h2 class="text-gray-900 title-font text-lg font-medium" id="name-${idpro}">${product.name}</h2>
+        <h2 class="prodname text-gray-900 title-font text-lg font-medium" id="name-${idpro}">${product.name}</h2>
         <p class="mt-1" id="price-${idpro}">₹ ${product.price}</p>
         <div class="dropdown inline-block relative">
           <button class="bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center edit_yes" id="edit-${user}-${idpro}">
@@ -181,7 +181,7 @@ function dispProduct(product,idpro,user,count,final)
         <div class="mt-4">
 
         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1" id="desc-${idpro}">${product.description}</h3>
-        <h2 class="text-gray-900 title-font text-lg font-medium" id="name-${idpro}">${product.name}</h2>
+        <h2 class="prodname text-gray-900 title-font text-lg font-medium" id="name-${idpro}">${product.name}</h2>
         <p class="mt-1" id="price-${idpro}">₹ ${product.price}</p>
         <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded cart " id="${idpro}" >Add to Cart</button>
         </div>
@@ -378,3 +378,23 @@ createprodForm.addEventListener('submit', (e) => {
 });
 }
 
+
+const prsearch = document.querySelector('#prodsearch input');
+const plist = document.querySelector('#displayproducts');
+
+const filterProds = (term) => {
+  Array.from(plist.children)
+    .filter((prod) => !prod.querySelector(".prodname").textContent.toLowerCase().includes(term))
+    .forEach((prod) => prod.classList.add('filtered'));
+
+  Array.from(plist.children)
+    .filter((prod) => prod.querySelector(".prodname").textContent.toLowerCase().includes(term))
+    .forEach((prod) => prod.classList.remove('filtered'));
+};
+
+prsearch.addEventListener('keyup', () => {
+
+  const term = search.value.trim().toLowerCase();
+  filterProds(term);
+
+});

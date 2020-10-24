@@ -16,6 +16,9 @@
         .dropdown:hover .dropdown-menu {
           display: block;
         }
+        .filtered {
+        display: none !important;
+      }
     </style>
     <script src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -58,6 +61,12 @@
 
     <div id="storename" class="flex flex-wrap w-full mb-100 flex-col items-center text-center">
         
+    </div>
+
+    <div class="p-8 flex items-center justify-center">
+      <div id="prodsearch" class="bg-white w-1/3 items-center rounded-full shadow-xl">
+        <input class="rounded-full w-full py-4 px-6 text-gray-700 leading-tight focus:outline-none" id="search" name="search" type="text" placeholder="Search Products">
+      </div>
     </div>
 
     <div id="addbtn" style="display: none;">
@@ -128,7 +137,7 @@
     </div>
 
     <section class="text-gray-700 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-12 mx-auto">
             <div id="displayproducts" class="flex flex-wrap -m-4">
 
             </div>
