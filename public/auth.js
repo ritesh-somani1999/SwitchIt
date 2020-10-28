@@ -29,6 +29,7 @@ db.collection('shop').doc(firebase.auth().currentUser.uid).set({
     shop:true
     });
     location.reload();
+    toggleModal();
   createForm.reset();
 }).catch(err => {
   console.log(err.message);
