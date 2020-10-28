@@ -60,6 +60,7 @@ signupForm.addEventListener('submit', (e) => {
     auth.signOut().then(() => {
     // close the signup modal & reset form
     // location.reload();
+    toggleModal();
     signupForm.reset();
   }).catch(err => {
     alert(err.message);
@@ -96,6 +97,7 @@ auth.signInWithEmailAndPassword(email, password).then((user) => {
     auth.signOut();
     alert("Verify your email first and try logging in...");
   }
+  toggleModal();
   loginForm.reset();
 }).catch(err => {
   alert(err.message);
